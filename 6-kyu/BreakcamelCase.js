@@ -8,4 +8,4 @@ solution("camelCasing")  ==  "camel Casing"
 //* My solution:
 const solution = string => string.split(/(?=[A-Z])/).join(' ');
 
-console.log(solution('breakCamelCase'));
+// console.log(solution('breakCamelCase'));
