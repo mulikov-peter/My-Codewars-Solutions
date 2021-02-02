@@ -8,7 +8,7 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 //* My solution:
 const arr1 = [10, 343445353, 3453445, 3453545353453];
 const arr = [19, 5, 42, 2, 77];
-sumTwoSmallestNumbers = numbers => {
+const sumTwoSmallestNumbers = numbers => {
   arr.sort((a, b) => {
     return a - b;
   });
