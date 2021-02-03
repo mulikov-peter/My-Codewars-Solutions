@@ -20,4 +20,4 @@ const solveRemove = (s, n) =>
     .reduce((start, cur) => start.replace(cur, ''), s);
 
 solveRemove('abracadabra', 5);
-console.log(solveRemove('abracadabra', 5)); // = 'bracadabra' # remove the leftmost 'a'.
+// console.log(solveRemove('abracadabra', 5)); // = 'bracadabra' # remove the leftmost 'a'.
