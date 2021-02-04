@@ -10,10 +10,10 @@ Note: The calculated height should be represented as an integer. If the height i
 const findScreenHeight = (width, ratio) => {
   const [ratio1, ratio2] = ratio.split(':');
 
-  console.log(`${width}x${(ratio2 / ratio1) * width}`);
+  // console.log(`${width}x${(ratio2 / ratio1) * width}`);
 
   return `${width}x${(ratio2 / ratio1) * width}`;
 };
 
-findScreenHeight(1024, '4:3'); // "1024x768"
-findScreenHeight(1280, '16:9'); //"1280x720"
+// findScreenHeight(1024, '4:3'); // "1024x768"
+// findScreenHeight(1280, '16:9'); //"1280x720"
