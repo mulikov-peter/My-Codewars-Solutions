@@ -7,4 +7,4 @@ Same goes for all the other arrays/lists that you will get in the tests: you hav
 
 const fixTheMeerkat = arr => arr.reverse();
 
-console.log(fixTheMeerkat(['tail', 'body', 'head'])); // ["head", "body", "tail"]
+// console.log(fixTheMeerkat(['tail', 'body', 'head'])); // ["head", "body", "tail"]
