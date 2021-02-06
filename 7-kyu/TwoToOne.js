@@ -18,3 +18,4 @@ const longest = (a, b) => [...new Set((a + b).split('').sort())].join('');
 // const longest = (a, b) => [...new Set((a + b).sort())].join('');
 
 // console.log(longest(a, b)); //-> "abcdefklmopqwxy"
+
