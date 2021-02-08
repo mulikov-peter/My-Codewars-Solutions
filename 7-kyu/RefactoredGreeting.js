@@ -17,9 +17,9 @@ class Person {
   }
 }
 
-const joe = new Person('Joe');
+// const joe = new Person('Joe');
 
-console.log(joe);
-console.log(joe.greet('Kate')); // should return 'Hello Kate, my name is Joe'
-console.log(joe.greet('Anna')); // should return 'Hello Kate, my name is Joe'
-console.log(joe.name); // should == 'Joe'
+// console.log(joe);
+// console.log(joe.greet('Kate')); // should return 'Hello Kate, my name is Joe'
+// console.log(joe.greet('Anna')); // should return 'Hello Kate, my name is Joe'
+// console.log(joe.name); // should == 'Joe'
