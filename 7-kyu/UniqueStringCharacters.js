@@ -23,12 +23,11 @@ const solve = (str1, str2) => {
     }
   }
   // console.log(newArr.join(''));
-  return newArr.join('');
+  // return newArr.join('');
 
   // CodeWar1:
   // const unique = [...str1, ...str2].reduce(
-  //   (acc, cur) =>
-  //     (acc += str1.includes(cur) && str2.includes(cur) ? '' : cur),
+  //   (acc, cur) => (acc += str1.includes(cur) && str2.includes(cur) ? '' : cur),
   //   ''
   // );
   // return unique;

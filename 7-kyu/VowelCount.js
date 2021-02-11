@@ -21,5 +21,5 @@ const getCount = str => {
 
 // const getCount = str => str.replace(/[^aeiou]/gi, '').length;
 
-console.log(getCount('abracadabra')); // 5
-console.log(getCount('code wars ')); // 3
+// console.log(getCount('abracadabra')); // 5
+// console.log(getCount('code wars ')); // 3
