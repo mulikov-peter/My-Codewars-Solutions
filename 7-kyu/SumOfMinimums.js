@@ -9,11 +9,8 @@ For Example:
 ]
 */
 
-const sumOfMinimums = arr => {
-  return arr.reduce((acc, cur) => {
-    return acc + Math.min(...cur);
-  }, 0);
-};
+const sumOfMinimums = arr =>
+  arr.reduce((acc, cur) => acc + Math.min(...cur), 0);
 
 // Test
 // console.log(
