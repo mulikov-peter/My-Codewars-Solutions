@@ -35,9 +35,9 @@ function rapNameGen(dob) {
 }
 
 // Test
-console.log(rapNameGen('23.11.93')); // '3hree 6ix')
-console.log(rapNameGen('14.07.84')); // '3hree 6ix')
-console.log(rapNameGen('03.49.04')); // '2wo 2wo')
-console.log(rapNameGen('01.01.01')); // '1ne 1ne')
-console.log(rapNameGen('24.06.94')); // '3hree 7even')
-console.log(rapNameGen('24.06.00')); // '3hree 0ero')
+// console.log(rapNameGen('23.11.93')); // '3hree 6ix')
+// console.log(rapNameGen('14.07.84')); // '3hree 6ix')
+// console.log(rapNameGen('03.49.04')); // '2wo 2wo')
+// console.log(rapNameGen('01.01.01')); // '1ne 1ne')
+// console.log(rapNameGen('24.06.94')); // '3hree 7even')
+// console.log(rapNameGen('24.06.00')); // '3hree 0ero')
