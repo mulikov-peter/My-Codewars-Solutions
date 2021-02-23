@@ -37,7 +37,7 @@ function amaroPlan(pirateNum) {
 // }
 
 // Test
-console.log(amaroPlan(2)); // [40, 0]);
-console.log(amaroPlan(3)); // [59, 0, 1]);
-console.log(amaroPlan(4)); // [79, 0, 1, 0]);
-console.log(amaroPlan(5)); // [98, 0, 1, 0, 1]);
+// console.log(amaroPlan(2)); // [40, 0]);
+// console.log(amaroPlan(3)); // [59, 0, 1]);
+// console.log(amaroPlan(4)); // [79, 0, 1, 0]);
+// console.log(amaroPlan(5)); // [98, 0, 1, 0, 1]);
