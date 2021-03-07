@@ -25,32 +25,32 @@ your function should return the following array:
 Notes:
 The order of the properties in the objects does not matter.
 The input array will always be valid and formatted as in the example above. */
-const list1 = [
-  {
-    firstName: 'Sofia',
-    lastName: 'I.',
-    country: 'Argentina',
-    continent: 'Americas',
-    age: 35,
-    language: 'Java',
-  },
-  {
-    firstName: 'Lukas',
-    lastName: 'X.',
-    country: 'Croatia',
-    continent: 'Europe',
-    age: 35,
-    language: 'Python',
-  },
-  {
-    firstName: 'Madison',
-    lastName: 'U.',
-    country: 'United States',
-    continent: 'Americas',
-    age: 32,
-    language: 'Ruby',
-  },
-];
+// const list1 = [
+//   {
+//     firstName: 'Sofia',
+//     lastName: 'I.',
+//     country: 'Argentina',
+//     continent: 'Americas',
+//     age: 35,
+//     language: 'Java',
+//   },
+//   {
+//     firstName: 'Lukas',
+//     lastName: 'X.',
+//     country: 'Croatia',
+//     continent: 'Europe',
+//     age: 35,
+//     language: 'Python',
+//   },
+//   {
+//     firstName: 'Madison',
+//     lastName: 'U.',
+//     country: 'United States',
+//     continent: 'Americas',
+//     age: 32,
+//     language: 'Ruby',
+//   },
+// ];
 
 const greetDevelopers = list => {
   for (const key in list) {

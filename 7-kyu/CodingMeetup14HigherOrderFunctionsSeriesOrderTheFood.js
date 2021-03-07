@@ -19,61 +19,61 @@ your function should return the following object (the order of properties does n
 
 { vegetarian: 2, standard: 1, vegan: 1 } */
 
-const list111 = [
-  {
-    firstName: 'Noah',
-    lastName: 'M.',
-    country: 'Switzerland',
-    continent: 'Europe',
-    age: 19,
-    language: 'C',
-    meal: 'vegetarian',
-  },
-  {
-    firstName: 'Anna',
-    lastName: 'R.',
-    country: 'Liechtenstein',
-    continent: 'Europe',
-    age: 52,
-    language: 'JavaScript',
-    meal: 'standard',
-  },
-  {
-    firstName: 'Ramona',
-    lastName: 'R.',
-    country: 'Paraguay',
-    continent: 'Americas',
-    age: 29,
-    language: 'Ruby',
-    meal: 'vegan',
-  },
-  {
-    firstName: 'George',
-    lastName: 'B.',
-    country: 'England',
-    continent: 'Europe',
-    age: 81,
-    language: 'C',
-    meal: 'vegetarian',
-  },
-];
+// const list111 = [
+//   {
+//     firstName: 'Noah',
+//     lastName: 'M.',
+//     country: 'Switzerland',
+//     continent: 'Europe',
+//     age: 19,
+//     language: 'C',
+//     meal: 'vegetarian',
+//   },
+//   {
+//     firstName: 'Anna',
+//     lastName: 'R.',
+//     country: 'Liechtenstein',
+//     continent: 'Europe',
+//     age: 52,
+//     language: 'JavaScript',
+//     meal: 'standard',
+//   },
+//   {
+//     firstName: 'Ramona',
+//     lastName: 'R.',
+//     country: 'Paraguay',
+//     continent: 'Americas',
+//     age: 29,
+//     language: 'Ruby',
+//     meal: 'vegan',
+//   },
+//   {
+//     firstName: 'George',
+//     lastName: 'B.',
+//     country: 'England',
+//     continent: 'Europe',
+//     age: 81,
+//     language: 'C',
+//     meal: 'vegetarian',
+//   },
+// ];
 
-function orderFood(list) {
-  const res = {};
+// function orderFood(list) {
+//   const res = {};
 
-  const meal = list.map(el => {
-    return el.meal;
-  });
+//   const meal = list.map(el => {
+//     return el.meal;
+//   });
 
-  meal.forEach((el, i) => {
-    const m = meal.filter(l => {
-      return l === el;
-    }).length;
-    res[el] = m;
-  });
+//   meal.forEach((el, i) => {
+//     const m = meal.filter(l => {
+//       return l === el;
+//     }).length;
+//     res[el] = m;
+//   });
 
-  return res;
-}
+//   return res;
+// }
 
 // COdewar
 // function orderFood(list) {
