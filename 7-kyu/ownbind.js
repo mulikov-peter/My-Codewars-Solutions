@@ -9,7 +9,7 @@ const bind = function (person, logPerson) {
   return logPerson(person);
 };
 
-console.log(bind(person1, logPerson));
-console.log(bind(person2, logPerson));
+// console.log(bind(person1, logPerson));
+// console.log(bind(person2, logPerson));
 
 // bind(person1, logPerson)
