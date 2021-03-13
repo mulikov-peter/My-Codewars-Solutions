@@ -29,6 +29,3 @@ Example:
 // Test
 // console.log(manipulate(192827764920)); // 192827000000);
 // console.log(manipulate(838444)); // 192827000000);
-// console.log(manipulate(432)); // 192827000000);
-// console.log(manipulate(838473)); // 838000);
-// console.log(manipulate(8173648710293847)); // 8173648700000000);
